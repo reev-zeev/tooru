@@ -1,5 +1,5 @@
-# Infrastructure
+# Infrastructure Package
 
-Purpose: provide concrete implementations for persistence, caching, queues, geospatial services, payments, notifications, storage, and observability behind stable application/domain ports.
+Purpose: implement persistence, geospatial services, queues, cache, payments, notifications, storage, and observability behind stable ports.
 
-Infrastructure is replaceable. External provider SDKs and transport-specific details must not leak into the domain.
+Provider SDKs and infrastructure details stop here and must not leak into domain logic.

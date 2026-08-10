@@ -1,5 +1,5 @@
-# Interfaces
+# Interfaces Package
 
-Purpose: expose application capabilities to external actors and channels. HTTP, Telegram, web, partner APIs, webhooks, and similar interfaces translate transport input into application commands/queries and render application results.
+Purpose: expose application capabilities through HTTP, bots, webhooks, partner APIs, and other channels.
 
-No interface may become the authoritative owner of core business rules.
+Interfaces translate transport input into application commands/queries and render results. They never become the owner of dispatch, pricing, payments, authorization, or other core business rules.

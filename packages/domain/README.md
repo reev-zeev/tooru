@@ -1,5 +1,5 @@
-# Domain
+# Domain Package
 
-Purpose: own the platform's business language, invariants, state machines, value objects, and domain events. This package must remain independent from HTTP, Telegram, UI frameworks, database clients, and external vendors.
+Purpose: own the platform business model, value objects, invariants, state machines, policies, and domain events.
 
-The domain is the stable center of the platform. Country and channel differences must be represented as policies/configuration or adapters rather than duplicated domain implementations.
+This package is the stable center. It knows what the platform means; it does not know how a user reached it or which vendor stores or delivers the data.

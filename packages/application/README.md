@@ -1,5 +1,5 @@
-# Application
+# Application Package
 
-Purpose: implement business use cases as orchestration over the domain and infrastructure ports. Commands and queries belong here; transport handlers must translate requests into these use cases rather than implement business rules themselves.
+Purpose: execute business use cases by orchestrating domain objects and infrastructure ports.
 
-This layer is the common execution surface for every channel: web, mobile, Telegram, WhatsApp, partner APIs, admin tools, and background workers.
+HTTP, bots, web, mobile, partner APIs, and workers all converge here. This prevents channel-specific business logic from fragmenting the platform.

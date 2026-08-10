@@ -1,5 +1,5 @@
-# Shared
+# Shared Package
 
-Purpose: hold small cross-cutting primitives that are safe to share across domain, application, infrastructure, interfaces, workers, and apps: configuration contracts, errors, results, identifiers, time abstractions, and validation utilities.
+Purpose: contain small cross-cutting primitives such as configuration contracts, identifiers, errors, results, time abstractions, and validation helpers.
 
-Shared must not become a dumping ground for business logic. Domain concepts belong in the domain package.
+Shared is deliberately small. Business rules belong in domain; infrastructure details belong in infrastructure.
