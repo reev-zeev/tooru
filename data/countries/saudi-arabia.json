@@ -1,0 +1,13 @@
+{
+  "country": "SA",
+  "currency": "SAR",
+  "timezone": "Asia/Riyadh",
+  "launchCities": [
+    {"id":"riyadh","nameAr":"الرياض","nameEn":"Riyadh","enabled":true},
+    {"id":"jeddah","nameAr":"جدة","nameEn":"Jeddah","enabled":true},
+    {"id":"makkah","nameAr":"مكة المكرمة","nameEn":"Makkah","enabled":true},
+    {"id":"taif","nameAr":"الطائف","nameEn":"Taif","enabled":true},
+    {"id":"madinah","nameAr":"المدينة المنورة","nameEn":"Madinah","enabled":true},
+    {"id":"dammam","nameAr":"الدمام","nameEn":"Dammam","enabled":true}
+  ]
+}

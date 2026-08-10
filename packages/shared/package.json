@@ -1,0 +1,11 @@
+{
+  "name": "@waslah/shared",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./ids": "./src/ids.ts",
+    "./result": "./src/result.ts"
+  },
+  "scripts": {"typecheck":"tsc --noEmit"}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "waslah-platform",
+  "private": true,
+  "packageManager": "bun@1.2.20",
+  "scripts": {
+    "typecheck": "bun run --filter './packages/*' typecheck",
+    "test": "bun test",
+    "lint": "bun run --filter './packages/*' lint"
+  },
+  "workspaces": ["apps/*", "packages/*"]
+}

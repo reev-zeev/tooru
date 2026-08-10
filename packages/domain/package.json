@@ -1,0 +1,8 @@
+{
+  "name": "@waslah/domain",
+  "private": true,
+  "type": "module",
+  "exports": {".": "./src/index.ts", "./jobs": "./src/jobs.ts", "./money": "./src/money.ts"},
+  "dependencies": {"@waslah/shared":"workspace:*"},
+  "scripts": {"typecheck":"tsc --noEmit"}
+}
