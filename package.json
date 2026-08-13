@@ -5,7 +5,11 @@
   "scripts": {
     "typecheck": "bun run --filter './packages/*' typecheck",
     "test": "bun test",
-    "lint": "bun run --filter './packages/*' lint"
+    "lint": "bun run --filter './packages/*' lint",
+    "check:production-readiness": "bun scripts/check-production-readiness.ts"
   },
-  "workspaces": ["apps/*", "packages/*"]
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
