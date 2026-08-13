@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "../..",
+    "paths": {
+      "@waslah/shared/*": [
+        "packages/shared/src/*"
+      ],
+      "@waslah/shared": [
+        "packages/shared/src/index.ts"
+      ]
+    },
+    "ignoreDeprecations": "6.0"
+  },
+  "include": [
+    "src/**/*.ts",
+    "orders/job.ts",
+    "geography/**/*.ts",
+    "payments/**/*.ts"
+  ]
+}
